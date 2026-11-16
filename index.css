@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('CursedTimerUlil-Aznm.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/**
+font-family: 'MyCustomFont', sans-serif;
+**/
+
+body {
+    width: 575px;
+    text-align: center;
+    margin: auto;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.container {
+    height: 385px;
+    background-color:#1B244A;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    column-gap: 10px;
+    text-align: center;
+}
+
+.container-score {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #EEEEEE;
+    margin-bottom: 0;
+}
+
+.scoreboard {
+    font-size: 100px;
+    width: 155px;
+    height: 120px;
+    background-color: black;
+    color: #ED6F63;
+    font-family: 'MyCustomFont';
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+.pointing {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 0;
+}
+
+button {
+    border: 2px solid antiquewhite;
+    background-color: #1B244A;
+    color: #EEEEEE;
+    padding: 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #1B244A;
+    background-color: #EEEEEE;
+}
+
+button:active {
+    background-color: #1B244A;
+    color: #EEEEEE;
+}
+
+#new-game {
+    margin-top: 0;
+    width: 155px;
+    margin: 0 auto;
+}
