@@ -1,40 +1,42 @@
 let scoreHome = document.getElementById("score-home")
 let scoreGuest = document.getElementById("score-guest")
 
-let count = 0
+let countHome = 0
+let countGuest = 0
 
 function addOneHome() {
-    count += 1
-    scoreHome.innerText = count
+    countHome += 1
+    scoreHome.innerText = countHome
 }
 
 function addTwoHome() {
-    count += 2
-    scoreHome.innerText = count
+    countHome += 2
+    scoreHome.innerText = countHome
 }
 
 function addThreeHome() {
-    count += 3
-    scoreHome.innerText = count
+    countHome += 3
+    scoreHome.innerText = countHome
 }
 
 function addOneGuest() {
-    count += 1
-    scoreGuest.innerText = count
+    countGuest += 1
+    scoreGuest.innerText = countGuest
 }
 
 function addTwoGuest() {
-    count += 2
-    scoreGuest.innerText = count
+    countGuest += 2
+    scoreGuest.innerText = countGuest
 }
 
 function addThreeGuest() {
-    count += 3
-    scoreGuest.innerText = count
+    countGuest += 3
+    scoreGuest.innerText = countGuest
 }
 
 function newGame() {
-    count = 0
-    scoreGuest.innerText = count
-    scoreHome.innerText = count
+    countHome = 0
+    countGuest = 0
+    scoreGuest.innerText = countHome
+    scoreHome.innerText = countGuest
 }
